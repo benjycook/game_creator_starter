@@ -33,3 +33,361 @@ MonoBehaviour:
       codePaths:
       - Assets/Plugins/GameCreator/Examples/
       dataPaths: []
+  - module:
+      moduleID: com.gamecreator.examples.behavior
+      version:
+        major: 0
+        minor: 2
+        patch: 3
+      displayName: Behavior Examples
+      description: Example scenes that show how to use the Behavior module
+      category: Examples
+      dependencies:
+      - moduleID: com.gamecreator.module.behavior
+        version:
+          major: 0
+          minor: 2
+          patch: 3
+      tags:
+      - examples
+      - behavior
+      authorName: Marti-Joan Nogue Coll
+      authorMail: marti@catsoft-studios.com
+      authorSite: https://gamecreator.io
+      includesData: 1
+      codePaths:
+      - Assets/Plugins/GameCreator/BehaviorExamples/
+      dataPaths:
+      - Assets/Plugins/GameCreatorData/Behavior/
+  - module:
+      moduleID: com.gamecreator.examples.dialogue
+      version:
+        major: 1
+        minor: 0
+        patch: 1
+      displayName: Dialogue Examples
+      description: Learn how to use the Dialogue tool with this Shakespearean demo
+        scene.
+      category: Examples
+      dependencies:
+      - moduleID: com.gamecreator.module.dialogue
+        version:
+          major: 1
+          minor: 0
+          patch: 1
+      tags:
+      - examples
+      - dialogue
+      authorName: Marti-Joan Nogue Coll
+      authorMail: marti@catsoft-studios.com
+      authorSite: https://gamecreator.io
+      includesData: 0
+      codePaths:
+      - Assets/Plugins/GameCreator/DialogueExamples/
+      dataPaths:
+      - Assets/Plugins/GameCreatorData/DialogueExamples/
+  - module:
+      moduleID: com.gamecreator.examples.inventory
+      version:
+        major: 0
+        minor: 6
+        patch: 3
+      displayName: Inventory Examples
+      description: Learn how to use the Inventory module, set up items, trigger effects
+        and trade items for currency.
+      category: Examples
+      dependencies:
+      - moduleID: com.gamecreator.module.inventory
+        version:
+          major: 0
+          minor: 6
+          patch: 3
+      tags:
+      - examples
+      - inventory
+      authorName: Marti-Joan Nogue Coll
+      authorMail: marti@catsoft-studios.com
+      authorSite: https://gamecreator.io
+      includesData: 1
+      codePaths:
+      - Assets/Plugins/GameCreator/InventoryExamples/
+      dataPaths:
+      - Assets/Plugins/GameCreatorData/Inventory/
+  - module:
+      moduleID: com.gamecreator.examples.quests
+      version:
+        major: 0
+        minor: 2
+        patch: 2
+      displayName: Quests Examples
+      description: Learn how to use the Quests module
+      category: Examples
+      dependencies:
+      - moduleID: com.gamecreator.module.quests
+        version:
+          major: 0
+          minor: 2
+          patch: 2
+      tags:
+      - examples
+      - quests
+      authorName: Marti-Joan Nogue Coll
+      authorMail: marti@catsoft-studios.com
+      authorSite: https://gamecreator.io
+      includesData: 1
+      codePaths:
+      - Assets/Plugins/GameCreator/QuestsExamples/
+      dataPaths:
+      - Assets/Plugins/GameCreatorData/Quests/
+  - module:
+      moduleID: com.gamecreator.examples.shooter
+      version:
+        major: 0
+        minor: 1
+        patch: 4
+      displayName: Shooter Examples
+      description: Example scenes that show how to use the Shooter module.
+      category: Examples
+      dependencies:
+      - moduleID: com.gamecreator.module.shooter
+        version:
+          major: 0
+          minor: 1
+          patch: 4
+      tags:
+      - examples
+      - shooter
+      authorName: Marti-Joan Nogue Coll
+      authorMail: marti@catsoft-studios.com
+      authorSite: https://gamecreator.io
+      includesData: 1
+      codePaths:
+      - Assets/Plugins/GameCreator/ShooterExample/
+      dataPaths:
+      - Assets/Plugins/GameCreatorData/Shooter/
+  - module:
+      moduleID: com.gamecreator.examples.stats
+      version:
+        major: 0
+        minor: 2
+        patch: 4
+      displayName: Stats Examples
+      description: Example scenes that show some of the most common cases using the
+        Stats module
+      category: Examples
+      dependencies:
+      - moduleID: com.gamecreator.module.stats
+        version:
+          major: 0
+          minor: 2
+          patch: 4
+      tags:
+      - examples
+      authorName: Marti-Joan Nogue Coll
+      authorMail: marti@catsoft-studios.com
+      authorSite: https://gamecreator.io
+      includesData: 1
+      codePaths:
+      - Assets/Plugins/GameCreator/StatsExamples/
+      dataPaths:
+      - Assets/Plugins/GameCreatorData/Stats/
+  - module:
+      moduleID: com.gamecreator.module.behavior
+      version:
+        major: 0
+        minor: 2
+        patch: 3
+      displayName: Behavior
+      description: Easily define how objects behave using Behavior Trees and the perception
+        system
+      category: Module
+      dependencies: []
+      tags:
+      - module
+      - behavior
+      authorName: Marti-Joan Nogue Coll
+      authorMail: marti@catsoft-studios.com
+      authorSite: https://gamecreator.io
+      includesData: 0
+      codePaths:
+      - Assets/Plugins/GameCreator/Behavior/
+      dataPaths: []
+  - module:
+      moduleID: com.gamecreator.module.dialogue
+      version:
+        major: 1
+        minor: 0
+        patch: 1
+      displayName: Dialogue
+      description: Show a cinematic conversation between characters, branch and join
+        different lines back together.
+      category: Modules
+      dependencies: []
+      tags:
+      - module
+      - dialogue
+      authorName: Marti-Joan Nogue Coll
+      authorMail: marti@catsoft-studios.com
+      authorSite: https://gamecreator.io
+      includesData: 0
+      codePaths:
+      - Assets/Plugins/GameCreator/Dialogue/
+      dataPaths:
+      - Assets/Plugins/GameCreatorData/Dialogue/
+  - module:
+      moduleID: com.gamecreator.module.inventory
+      version:
+        major: 0
+        minor: 6
+        patch: 3
+      displayName: Inventory
+      description: Manage, trade, use, equip and craft items. Includes a couple of
+        inventory skins.
+      category: Module
+      dependencies: []
+      tags:
+      - module
+      - inventory
+      authorName: Marti-Joan Nogue Coll
+      authorMail: marti@catsoft-studios.com
+      authorSite: https://gamecreator.io
+      includesData: 0
+      codePaths:
+      - Assets/Plugins/GameCreator/Inventory/
+      dataPaths:
+      - Assets/Plugins/GameCreatorData/Inventory/
+  - module:
+      moduleID: com.gamecreator.module.quests
+      version:
+        major: 0
+        minor: 2
+        patch: 2
+      displayName: Quests
+      description: Create complex storylines with multiple quests
+      category: Modules
+      dependencies: []
+      tags:
+      - module
+      - quests
+      authorName: Marti-Joan Nogue Coll
+      authorMail: marti@catsoft-studios.com
+      authorSite: https://gamecreator.io
+      includesData: 0
+      codePaths:
+      - Assets/Plugins/GameCreator/Quests/
+      dataPaths: []
+  - module:
+      moduleID: com.gamecreator.module.shooter
+      version:
+        major: 0
+        minor: 1
+        patch: 4
+      displayName: Shooter
+      description: Module that provides tools for using long and mid ranged weapons
+      category: Modules
+      dependencies: []
+      tags:
+      - examples
+      - game creator
+      authorName: Marti-Joan Nogue Coll
+      authorMail: marti@catsoft-studios.com
+      authorSite: https://gamecreator.io
+      includesData: 0
+      codePaths:
+      - Assets/Plugins/GameCreator/Shooter/
+      dataPaths: []
+  - module:
+      moduleID: com.gamecreator.module.stats
+      version:
+        major: 0
+        minor: 2
+        patch: 4
+      displayName: Stats
+      description: Easily design game progression with unconstrained stat systems
+      category: Modules
+      dependencies: []
+      tags:
+      - module
+      authorName: Marti-Joan Nogue Coll
+      authorMail: marti@catsoft-studios.com
+      authorSite: https://gamecreator.io
+      includesData: 0
+      codePaths:
+      - Assets/Plugins/GameCreator/Stats/
+      dataPaths: []
+  - module:
+      moduleID: com.gamecreator.skins.dialogue.futuristic
+      version:
+        major: 1
+        minor: 0
+        patch: 1
+      displayName: Futuristic Skin
+      description: Leap into the future with this black and green terminal-like skin
+        for the Dialogue module.
+      category: Dialogue Skin
+      dependencies:
+      - moduleID: com.gamecreator.module.dialogue
+        version:
+          major: 1
+          minor: 0
+          patch: 1
+      tags:
+      - skin
+      - dialogue
+      authorName: Marti-Joan Nogue Coll
+      authorMail: marti@catsoft-studios.com
+      authorSite: https://gamecreator.io
+      includesData: 0
+      codePaths:
+      - Assets/Plugins/GameCreator/DialogueSkinFuturistic/
+      dataPaths: []
+  - module:
+      moduleID: com.gamecreator.skins.dialogue.message
+      version:
+        major: 1
+        minor: 0
+        patch: 1
+      displayName: Message Skin
+      description: Give your game an old-school look with this fantasy dialogue skin.
+      category: Dialogue Skin
+      dependencies:
+      - moduleID: com.gamecreator.module.dialogue
+        version:
+          major: 1
+          minor: 0
+          patch: 1
+      tags:
+      - skin
+      - dialogue
+      authorName: Marti-Joan Nogue Coll
+      authorMail: marti@catsoft-studios.com
+      authorSite: https://gamecreator.io
+      includesData: 0
+      codePaths:
+      - Assets/Plugins/GameCreator/DialogueSkinMessage/
+      dataPaths: []
+  - module:
+      moduleID: com.gamecreator.skins.dialogue.pixelfantasy
+      version:
+        major: 1
+        minor: 0
+        patch: 1
+      displayName: Pixel Fantasy Skin
+      description: Give your game an old-school look with this fantasy dialogue skin.
+      category: Dialogue Skin
+      dependencies:
+      - moduleID: com.gamecreator.module.dialogue
+        version:
+          major: 1
+          minor: 0
+          patch: 1
+      tags:
+      - skin
+      - dialogue
+      authorName: Marti-Joan Nogue Coll
+      authorMail: marti@catsoft-studios.com
+      authorSite: https://gamecreator.io
+      includesData: 0
+      codePaths:
+      - Assets/Plugins/GameCreator/DialogueSkinPixelFantasy/
+      dataPaths: []
