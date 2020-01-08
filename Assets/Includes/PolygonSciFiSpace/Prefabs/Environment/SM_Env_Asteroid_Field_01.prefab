@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 4707158679270136}
   - component: {fileID: 33594390509082380}
   - component: {fileID: 23984603957803894}
+  - component: {fileID: 64720968024496606}
   m_Layer: 0
   m_Name: SM_Env_Asteroid_Field_01
   m_TagString: Untagged
@@ -77,3 +78,17 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!64 &64720968024496606
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1706800958637316}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 0
+  m_CookingOptions: 14
+  m_Mesh: {fileID: 4300000, guid: 1d5bb9c68dbd29e439b01f6e9c423309, type: 3}

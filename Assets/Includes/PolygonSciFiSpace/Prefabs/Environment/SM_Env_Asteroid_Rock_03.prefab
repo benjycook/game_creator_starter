@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 4015516187493062}
   - component: {fileID: 33318566704685704}
   - component: {fileID: 23773345642762106}
+  - component: {fileID: 64049591113576896}
   m_Layer: 0
   m_Name: SM_Env_Asteroid_Rock_03
   m_TagString: Untagged
@@ -77,3 +78,17 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!64 &64049591113576896
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1020409335811022}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 0
+  m_CookingOptions: 14
+  m_Mesh: {fileID: 4300000, guid: 3ef4f27cefae9714999be8b86a844e06, type: 3}
